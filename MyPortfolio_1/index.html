@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Peking Times</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="final.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="images/icon_china2.jpg" alt="iconic view of a cityscape">
+        <h1 class="header__title">
+          The Peking Times
+        </h1>
+        <a id="menu" class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">News</a></li>
+        <li class="nav__item"><a href="#">Events</a></li>
+        <li class="nav__item"><a href="#">Culture</a></li>
+        <li class="nav__item"><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="content">
+        <section class="hero">
+          <article class="description">
+            <h2>Beijing stakes strong claim to host Winter Games!</h2>
+            <p>Beijing's plans to host the 2022 Olympic Winter Games' snow events have impressed international skiing officials.</p>
+          </article>
+        </section>
+
+        <section class="news top-news">
+          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="top-news__item">
+              <a href="#">Tiangong-2 space lab enters preset orbit for docking with manned spacecraft.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Air force in Pacific drill to test far-offshore strength.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">World's largest telescope begins peering into space.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Birth permission certificate no longer required for couples expecting test-tube babies .</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="scores">
+          <table class="scores__table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th class="scores__location">Medal</th>
+                <th>Name</th>
+                <th>Sport</th>
+                <th>Event</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>August 7</td>
+                <td class="scores__location">Gold</td>
+                <td class="winner">Zhang Mengxue</td>
+                <td>Shooting</td>
+                <td>Women's 10 m air pistol</td>
+              </tr>
+              <tr>
+                <td>August 7</td>
+                <td class="scores__location">Gold</td>
+                <td class="winner">Shi Tingmao<br/>Wu Minxia</td>
+                <td>Diving</td>
+                <td>Women's 3m springboard</td>
+              </tr>
+              <tr>
+                <td>August 7</td>
+                <td class="scores__location">Gold</td>
+                <td class="winner">Long Qingquan</td>
+                <td>Weightlifting</td>
+                <td>Men's 56 kg</td>
+              </tr>
+              <tr>
+                <td>August 8</td>
+                <td class="scores__location">Gold</td>
+                <td class="winner">Chen Aisen<br/>Lin Yue</td>
+                <td>diving</td>
+                <td> Men's 10 metre platform</td>
+              </tr>
+              <tr>
+                <td>August 8</td>
+                <td class="scores__location">Gold</td>
+                <td class="winner">Sun Yang</td>
+                <td>Swimming</td>
+                <td>Men's 200 metre freestyle</td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </section>
+
+        <section class="weather">
+          <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=42.3583&lon=-71.0603&name=Beiing&color=#00aaff&font=Georgia&units=cn"> </iframe>
+        </section>
+
+        <section class="news recent-news">
+          <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="snippet">
+              <h3 class="snippet__title"><a href="#">Beijing passes Winter Olympics test.</a></h3>
+              <div class="snippet__thumbnail">
+                <img src='images/olympic_1.jpg' alt="picture of winter olympic">
+              </div>
+              <p class="snippet__description">China is dedicated to establishing a fully all-year-round sports culture and developing its huge winter sports market potential by encouraging public participation.
+              In this way, Beijing 2022 will also help promote healthy lifestyle across China. 
+              </p>
+            </li>
+            <li class="snippet">
+              <div class="snippet__thumbnail">
+                <img src='images/forbiddenCity.jpg' alt="preparations shutter Forbidden City">
+              </div>
+              <h3 class="snippet__title"><a href="#">Preparations shutter Forbidden City, other major tourist spots.</a></h3>
+              <p class="snippet__description">Scenic spots around Tian'anmen Square and Chang'an Avenue, including a tourist favorite, the Forbidden City, will be closed during preparations for the Sept 3 military parade.
+              </p>
+            </li>
+            <li class="snippet">
+              <div class="snippet__thumbnail">
+                <img src='images/airportSafe.jpg' alt="Airport security boosted nationwide">
+              </div>
+              <h3 class="snippet__title"><a href="#">Airport security boosted nationwide.</a></h3>
+              <p class="snippet__description">Airports around the country have stepped up security checks on passengers and their luggage to get ready for the upcoming events to mark the 70th anniversary of victory in the War of Resistance against Japanese Aggression (1937-45).
+              </p>
+            </li>
+            <li class="snippet">
+              <div class="snippet__thumbnail">
+                <img src='images/traffic.jpg' alt="More and more drivers">
+              </div>
+              <h3 class="snippet__title"><a href="#">More and more drivers. </a></h3>
+              <p class="snippet__description">As of Saturday, more than 1.77 million people have registered with Beijing's vehicle license plate lottery system to get a purchase permit.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Follow us on Twitter</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </footer>
+    </main>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+  </body>
+</html>
